@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Japan CSS Flag</title>
+    <style>
+      .flag {
+        width: 900px;
+        height: 600px;
+        position: relative;
+        background-color: white;
+        border: 10px solid black;
+      }
+      .flag > p {
+        position: absolute;
+        top: 0;
+        left: 400px;
+        font-size: 2rem;
+        color: red;
+      }
+      .flag > div {
+        background-color: red;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 200px;
+        left: 350px;
+        border-radius: 50%;
+      }
+      .flag > div > p {
+        position: absolute;
+        top: 50px;
+        left: 55px;
+        font-size: 2rem;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flag">
+      <p>日本の</p>
+      <div>
+        <p>国旗</p>
+      </div>
+    </div>
+  </body>
+</html>
